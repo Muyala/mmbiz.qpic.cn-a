@@ -1,0 +1,46 @@
+/* 提示框样式 */
+    .message {
+        min-width: 300px;
+        max-width: 500px;
+        min-height: 45px;
+        text-align: center;
+        align-items: center;
+        padding: 10px 30px;
+        box-sizing: border-box;
+        margin: auto;
+        font-size: 16px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -60px;
+        margin-left: -150px;
+        transition: all .4s ease;
+        z-index: 5000;
+        box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+        border-radius: 2px;
+    }
+
+    .message i {
+        margin-right: 10px;
+    }
+
+    .success {
+        background-color: #f7fbef;
+        color: #63c339;
+    }
+
+    .error {
+        background-color: #fff3f7;
+        color: #f76d6b;
+    }
+
+    .warning {
+        background-color: #fdf6ec;
+        color: #e6a23c;
+    }
+
+    .info{
+        background-color: #000;
+        color: #fff;
+        opacity: .5;
+    }
